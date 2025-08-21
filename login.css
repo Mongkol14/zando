@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: red; */
+  background-image: url("https://i.pinimg.com/originals/45/67/a8/4567a837b545d22b9dcde81ccd98b70e.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-form {
+  width: 500px;
+  /* height: 50%; */
+  background-color: #ced4da;
+  border-radius: 10px;
+}
+.login-form > h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+.login-form form {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(165, 164, 164, 0.174);
+  /* padding: 0 0; */
+  padding-top: 20px;
+  /* padding-bottom: 20px; */
+}
+.form-input-top {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  border: 1px solid rgb(68, 108, 34);
+  border-radius: 5px;
+  overflow: hidden;
+  /* margin-top: 10px; */
+}
+.form-input > span {
+  width: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-input > input {
+  width: 90%;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+}
+.form-input > input:focus {
+  outline: none;
+}
+.txt-check {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.txt-check input {
+}
+.form-input-top > button {
+  /* display: inline; */
+  width: fit-content;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: blue;
+  color: whitesmoke;
+  border: none;
+}
+.back-home a {
+  color: rgb(216, 216, 216);
+  font-weight: bold;
+
+  text-decoration: none;
+}
+.back-home a:hover {
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.login-social-medai {
+  width: 100%;
+  height: auto;
+  background-color: #eeeeeeab;
+  margin-top: 10px;
+  padding: 10px;
+  /* border-radius: 10px; */
+  padding-bottom: 20px;
+}
+.login-social-medai > span {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: rgb(38, 38, 38);
+}
+.login-social-medai > span > h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.btn-container {
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+.btn > span {
+  padding: 8px 15px;
+}
+.btn-twitter {
+  background-color: rgb(45, 161, 210);
+}
+.btn-facebook {
+  background-color: rgb(35, 35, 137);
+}
+
+.btn-google {
+  background-color: brown;
+}
+
+.line {
+  width: 90%;
+  height: 1px;
+  background-color: gray;
+  margin: auto;
+}
+.text-register {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  /* background-color: red; */
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+.text-register > a {
+  color: red;
+}
+.btn-register {
+  margin: auto;
+  background-color: blue;
+  padding: 10px 20px;
+  display: flex;
+  margin-top: 30px;
+}
